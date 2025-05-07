@@ -1,0 +1,26 @@
+# 1. Ignore all files
+*
+
+# 2. Allow Git to traverse into directories
+!*/
+
+# 3. Whitelist these files or folders
+!.gitignore
+!alacritty/** 
+!bspwm/** 
+!dunst/** 
+!eww/**
+!fastfetch/** 
+!flameshot/** 
+!sxhkd/** 
+!ghostty/** 
+!i3/**
+!htop/** 
+!kanata/** 
+!MangoHud/**
+!polybar/**
+!Thunar/**
+!WarThunder/** 
+!xborders/**
+!discord/settings.json
+!rofi/**

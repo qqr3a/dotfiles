@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Check if any Bluetooth sink is available
+bt_sink=$(pactl list sinks | grep -E "bluez|Mute")
+
+if echo "$bt_sink" | grep -q "bluez"; then
+    # Check if the Bluetooth sink is muted
+    if echo "$bt_sink" | grep -q "Mute: yes"; then
+        echo ""  # Muted Bluetooth icon
+    else
+        echo "%{F#147ddd}%{F}"  # Bluetooth icon (connected)
+    fi
+else
+    # Check if the default sink is muted
+    default_sink=$(pactl info | grep "Default Sink" | cut -d' ' -f3)
+    if pactl list sinks | grep -A 15 "$default_sink" | grep -q "Mute: yes"; then
+        echo ""  # Muted regular audio icon
+    else
+        echo "%{F#c678dd}%{F}" # Regular audio icon
+    fi
+fi

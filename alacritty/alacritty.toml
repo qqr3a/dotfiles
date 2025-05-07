@@ -1,0 +1,18 @@
+[window]
+dynamic_title= true
+opacity = 0.9
+
+[terminal]
+
+[colors]
+  [colors.primary]
+background = "#1A1D1B" 
+
+[font]
+normal = { family = "FreeMono", style = "Regular" }
+size= 10
+
+[terminal.shell]
+program = "/sbin/zsh"
+#args = ["--login", "-c", "neofetch --ascii \"$(cat ~/.config/neofetch/logo.txt)\"; exec zsh"]
+args = ["--login", "-c", "fastfetch ; exec zsh"]

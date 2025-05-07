@@ -1,0 +1,14 @@
+{
+    "border-radius": 7,
+    "border-width": 3,
+    "border-red": 120,
+    "border-green": 150,
+    "border-blue": 140,
+    "border-alpha": 1,
+    "border-mode": "outside",
+    "smart-hide-border": true,
+    "positive-x-offset": 0,
+    "negative-x-offset": 0,
+    "positive-y-offset": 0,
+    "negative-y-offset": 0
+}
