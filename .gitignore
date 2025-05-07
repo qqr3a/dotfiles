@@ -23,4 +23,7 @@
 !WarThunder/** 
 !xborders/**
 !discord/settings.json
-!rofi/**
+!wofi/**
+!btop/**
+!hypr/**
+!waybar/**
