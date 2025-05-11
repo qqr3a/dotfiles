@@ -1,4 +1,4 @@
-version:i=770
+version:i=776
 
 content{
   profile{
@@ -10,7 +10,7 @@ content{
     automaticPump:b=no
     globalSaveVersion:i=0
     saveVersion:i=2
-    countryId2:i=2
+    countryId2:i=5
     firstFreeFlight:b=no
     completedOneMission:i=1
     seenNuclearEvent:b=no
@@ -380,6 +380,7 @@ content{
             2025_02_07_thunder_cup_2025_popup:i=739654
             2025_04_19_WTCS_popup:i=739725
             2025_05_03_WTCS_popup:i=739739
+            2025_05_03_WTCS_1_popup:i=739746
           }
 
           warbonds{
@@ -528,16 +529,16 @@ content{
         }
 
         inventory{
-          100143:i=739739
-          item_universal_spare:i=739739
-          universal_spare_aircraft_r16:i=739739
+          100143:i=739746
+          item_universal_spare:i=739746
+          universal_spare_aircraft_r16:i=739746
         }
 
         events{
-          air_simulation_timeDelay_battles:i=739739
-          tank_random_battles_simulation_1:i=739739
-          tank_random_battles_simulation:i=739739
-          helicopter_pve_H2M:i=739739
+          air_simulation_timeDelay_battles:i=739746
+          tank_random_battles_simulation_1:i=739746
+          tank_random_battles_simulation:i=739746
+          helicopter_pve_H2M:i=739746
         }
       }
 
@@ -568,8 +569,8 @@ content{
       }
 
       changelog{
-        lastSeenVersionInfoNum:i=36503884
-        lastLoadedVersionNum:i=36503884
+        lastSeenVersionInfoNum:i=36503897
+        lastLoadedVersionNum:i=36503897
       }
 
       voted_polls{}
@@ -591,8 +592,8 @@ content{
       chatRooms{}
       viralAcquisition{
         resetDays:i=1
-        lastLoginDay:i=739735
-        lastShowTime:i=739735
+        lastLoginDay:i=739746
+        lastShowTime:i=739746
       }
 
       contacts{
@@ -635,8 +636,8 @@ content{
         }
 
         26{
-          seenCount:i=19
-          seenTime:i=1745164974
+          seenCount:i=20
+          seenTime:i=1746886810
         }
       }
 
@@ -1161,7 +1162,7 @@ content{
       }
 
       fa_18c_early{
-        USEROPT_WEAPONS:t="fa_18c_early_mk82"
+        USEROPT_WEAPONS:t="fa_18c_early_aim_7p"
         USEROPT_BULLETS1:t="countermeasures_launcher_chaff"
         USEROPT_BULLET_COUNT0:i=30
         USEROPT_BULLET_COUNT1:i=30
@@ -1228,6 +1229,83 @@ content{
           }
         }
       }
+
+      jf_17{
+        USEROPT_WEAPONS:t="jf_17_pl5_sd10_default"
+        USEROPT_BULLETS1:t="countermeasures_launcher_chaff_large"
+        USEROPT_BULLET_COUNT0:i=36
+        USEROPT_BULLET_COUNT1:i=36
+        USEROPT_BULLET_COUNT3:i=200
+        mfd_2:i=2
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_FUEL_AMOUNT_CUSTOM:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+
+        radarSavedState{
+          "gameData/sensors/cn_klj_7.blk"{
+            modeName:t=""
+            scanPatternName:t=""
+            scopeRangeValue:r=-1
+          }
+        }
+      }
+
+      mig-21_bison{
+        USEROPT_BULLETS1:t="countermeasures_launcher_chaff_large"
+        USEROPT_BULLET_COUNT0:i=30
+        USEROPT_BULLET_COUNT1:i=30
+        USEROPT_BULLET_COUNT3:i=200
+        USEROPT_WEAPONS:t="mig_21_bison_r_73"
+        mfd_1:i=1
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_FUEL_AMOUNT_CUSTOM:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS3:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+
+        radarSavedState{
+          "gameData/sensors/su_kopio.blk"{
+            modeName:t=""
+            scanPatternName:t=""
+            scopeRangeValue:r=-1
+          }
+        }
+      }
+
+      f-5e_fcu_thailand{
+        USEROPT_WEAPONS:t="f_5e_fcu_default"
+        USEROPT_BULLETS3:t="countermeasures_launcher_chaff_large"
+        USEROPT_BULLETS5:t="countermeasures_launcher_chaff"
+        USEROPT_BULLET_COUNT0:i=560
+        USEROPT_BULLET_COUNT2:i=7
+        USEROPT_BULLET_COUNT3:i=8
+        USEROPT_BULLET_COUNT4:i=15
+        USEROPT_BULLET_COUNT5:i=15
+        mfd_1:i=1
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_FUEL_AMOUNT_CUSTOM:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS1:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS4:t=""
+
+        radarSavedState{
+          "gameData/sensors/us_an_apq_159.blk"{
+            modeName:t=""
+            scanPatternName:t=""
+            scopeRangeValue:r=-1
+          }
+        }
+      }
     }
 
     userSkins{
@@ -1261,12 +1339,16 @@ content{
       fa_18c_early:t=""
       tornado_ids_de_wtd61:t=""
       tornado_ids_de_mfg:t=""
+      jf_17:t=""
+      mig-21_bison:t=""
+      f-5e_fcu_thailand:t=""
     }
 
     tankAltCrosshair{
       mig-21_s:t="test_crosshair"
       a_6e_tram:t="test_crosshair"
       germ_spz_oerlikon_raketenautomat:t="sw_landsverk_ush_405"
+      f-5e_fcu_thailand:t="test_crosshair"
     }
 
     forbid_visual_tags{}
@@ -1320,7 +1402,7 @@ content{
   }
 
   selectedAir{
-    current_model:t="he51a1"
+    current_model:t="ki_10_1_commander"
     ussr:t="mig_3_series_1_15_bk_pod"
     britain:t="fury_mk1"
     germany:t="he51a1"

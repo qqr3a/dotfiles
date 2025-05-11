@@ -1,4 +1,4 @@
-version:i=76
+version:i=80
 
 content{
   machineId:t="68e33c7d9e441aec7fce3c72f62d90d867bc6c6c"
@@ -485,26 +485,26 @@ content{
     OPTIONS_MODE_TRAINING{
       USEROPT_CLIME:t="clear"
       USEROPT_TIME:t="13"
-      USEROPT_AIRCRAFT:t="tornado_ids_de_mfg"
-      USEROPT_WEAPONS:t="tornado_ids_de_mfg_aim_9l"
+      USEROPT_AIRCRAFT:t="f-5e_fcu_thailand"
+      USEROPT_WEAPONS:t="f_5e_fcu_default"
       USEROPT_BULLETS0:t=""
       USEROPT_BULLETS1:t=""
       USEROPT_BULLETS2:t=""
-      USEROPT_BULLETS3:t=""
+      USEROPT_BULLETS3:t="countermeasures_launcher_chaff_large"
       USEROPT_BULLETS4:t=""
-      USEROPT_BULLETS5:t=""
-      USEROPT_BULLET_COUNT0:i=0
+      USEROPT_BULLETS5:t="countermeasures_launcher_chaff"
+      USEROPT_BULLET_COUNT0:i=280
       USEROPT_BULLET_COUNT1:i=0
-      USEROPT_BULLET_COUNT2:i=0
-      USEROPT_BULLET_COUNT3:i=180
-      USEROPT_BULLET_COUNT4:i=0
-      USEROPT_BULLET_COUNT5:i=0
-      USEROPT_BULLETS_WEAPON0:t=""
+      USEROPT_BULLET_COUNT2:i=7
+      USEROPT_BULLET_COUNT3:i=8
+      USEROPT_BULLET_COUNT4:i=15
+      USEROPT_BULLET_COUNT5:i=15
+      USEROPT_BULLETS_WEAPON0:t="cannonM39A3"
       USEROPT_BULLETS_WEAPON1:t=""
-      USEROPT_BULLETS_WEAPON2:t=""
-      USEROPT_BULLETS_WEAPON3:t="cannon_mauser_bk_27"
-      USEROPT_BULLETS_WEAPON4:t="cannon_mauser_bk_27"
-      USEROPT_BULLETS_WEAPON5:t="cannon_mauser_bk_27"
+      USEROPT_BULLETS_WEAPON2:t="countermeasure_large_split_launcher_jet"
+      USEROPT_BULLETS_WEAPON3:t="countermeasure_large_split_launcher_jet"
+      USEROPT_BULLETS_WEAPON4:t="countermeasure_split_launcher_jet"
+      USEROPT_BULLETS_WEAPON5:t="countermeasure_split_launcher_jet"
       USEROPT_SKIN:t="default"
       USEROPT_DIFFICULTY:t="arcade"
       USEROPT_LIMITED_FUEL:b=no
