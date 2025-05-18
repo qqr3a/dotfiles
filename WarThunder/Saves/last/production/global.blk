@@ -1,4 +1,4 @@
-version:i=776
+version:i=781
 
 content{
   profile{
@@ -10,7 +10,7 @@ content{
     automaticPump:b=no
     globalSaveVersion:i=0
     saveVersion:i=2
-    countryId2:i=5
+    countryId2:i=2
     firstFreeFlight:b=no
     completedOneMission:i=1
     seenNuclearEvent:b=no
@@ -231,14 +231,6 @@ content{
               selected:i=0
             }
 
-            country_japan{
-              preset:t="8|8,9|ki_10_1_commander,ki_10_1|Aviation|air_arcade|"
-              preset:t="8|8,9|jp_type_98_ke_ni,jp_type_89b_i_go_otsu|Army|tank_event_in_random_battles_arcade|"
-              preset:t="8|8|jp_destroyer_mutsuki|Bluewater fleet|ship_event_in_random_battles_arcade|"
-              preset:t="8|8|jp_t14_class|Coastal fleet|ship_event_in_random_battles_arcade|"
-              selected:i=0
-            }
-
             country_china{
               preset:t="14|14,15|i-15bis_china,gladiator_mk1_china|Aviation|air_arcade|"
               preset:t="14|14,15|cn_m8_greyhound,cn_t_26_1940|Army|tank_event_in_random_battles_arcade|"
@@ -250,12 +242,6 @@ content{
               preset:t="10|10,11|it_ab_41,it_l6|Army|tank_event_in_random_battles_arcade|"
               preset:t="10|10|it_destroyer_turbine|Bluewater fleet|ship_event_in_random_battles_arcade|"
               preset:t="10|10|it_mas_classe500_3_1944|Coastal fleet|ship_event_in_random_battles_arcade|"
-              selected:i=0
-            }
-
-            country_france{
-              preset:t="12|12,13|d_371,d_373|Aviation|air_arcade|"
-              preset:t="12|12,13|fr_amd_35,fr_hotchkiss_h39|Army|tank_event_in_random_battles_arcade|"
               selected:i=0
             }
 
@@ -283,6 +269,20 @@ content{
               preset:t="2|2,3|germ_pzkpfw_III_ausf_E,germ_pzkpfw_35t|Army|tank_event_in_random_battles_arcade|"
               preset:t="2|2|germ_destroyer_class1924_leopard1932|Bluewater fleet|ship_event_in_random_battles_arcade|"
               preset:t="2|2|germ_ls_class|Coastal fleet|ship_event_in_random_battles_arcade|"
+              selected:i=0
+            }
+
+            country_japan{
+              preset:t="8|8,9|ki_10_1_commander,ki_10_1|Aviation|air_arcade|8,9"
+              preset:t="8|8,9|jp_type_98_ke_ni,jp_type_89b_i_go_otsu|Army|tank_event_in_random_battles_arcade|"
+              preset:t="8|8|jp_destroyer_mutsuki|Bluewater fleet|ship_event_in_random_battles_arcade|"
+              preset:t="8|8|jp_t14_class|Coastal fleet|ship_event_in_random_battles_arcade|"
+              selected:i=0
+            }
+
+            country_france{
+              preset:t="12|12,13|d_371,d_373|Aviation|air_arcade|12,13"
+              preset:t="12|12,13|fr_amd_35,fr_hotchkiss_h39|Army|tank_event_in_random_battles_arcade|"
               selected:i=0
             }
           }
@@ -529,16 +529,16 @@ content{
         }
 
         inventory{
-          100143:i=739746
-          item_universal_spare:i=739746
-          universal_spare_aircraft_r16:i=739746
+          100143:i=739750
+          item_universal_spare:i=739750
+          universal_spare_aircraft_r16:i=739750
         }
 
         events{
-          air_simulation_timeDelay_battles:i=739746
-          tank_random_battles_simulation_1:i=739746
-          tank_random_battles_simulation:i=739746
-          helicopter_pve_H2M:i=739746
+          air_simulation_timeDelay_battles:i=739750
+          tank_random_battles_simulation_1:i=739750
+          tank_random_battles_simulation:i=739750
+          helicopter_pve_H2M:i=739750
         }
       }
 
@@ -569,8 +569,8 @@ content{
       }
 
       changelog{
-        lastSeenVersionInfoNum:i=36503897
-        lastLoadedVersionNum:i=36503897
+        lastSeenVersionInfoNum:i=36503900
+        lastLoadedVersionNum:i=36503900
       }
 
       voted_polls{}
@@ -592,7 +592,7 @@ content{
       chatRooms{}
       viralAcquisition{
         resetDays:i=1
-        lastLoginDay:i=739746
+        lastLoginDay:i=739750
         lastShowTime:i=739746
       }
 
@@ -1306,6 +1306,57 @@ content{
           }
         }
       }
+
+      saab_ja37di_f21{
+        USEROPT_BULLETS1:t="countermeasures_launcher_chaff_large"
+        USEROPT_BULLETS3:t="countermeasures_launcher_chaff"
+        USEROPT_BULLET_COUNT0:i=24
+        USEROPT_BULLET_COUNT1:i=24
+        USEROPT_BULLET_COUNT2:i=160
+        USEROPT_BULLET_COUNT3:i=160
+        USEROPT_BULLET_COUNT4:i=150
+        USEROPT_WEAPONS:t="saab_ja37di_rockets_rb74"
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_FUEL_AMOUNT_CUSTOM:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+
+        radarSavedState{
+          "gameData/sensors/sw_ps-46a.blk"{
+            modeName:t=""
+            scanPatternName:t=""
+          }
+        }
+      }
+
+      mirage_2000c_s4{
+        USEROPT_WEAPONS:t="mirage_2000c_s4_r_550_magic"
+        USEROPT_BULLETS1:t="countermeasures_launcher_chaff_large"
+        USEROPT_BULLETS3:t="countermeasures_launcher_chaff"
+        USEROPT_BULLET_COUNT0:i=8
+        USEROPT_BULLET_COUNT1:i=8
+        USEROPT_BULLET_COUNT2:i=9
+        USEROPT_BULLET_COUNT3:i=9
+        USEROPT_BULLET_COUNT4:i=250
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+        USEROPT_FUEL_AMOUNT_CUSTOM:i=300000
+        USEROPT_BULLETS0:t=""
+        USEROPT_BULLETS2:t=""
+        USEROPT_BULLETS4:t=""
+        USEROPT_BULLETS5:t=""
+
+        radarSavedState{
+          "gameData/sensors/fr_thomson-csf_rdi.blk"{
+            modeName:t=""
+            scanPatternName:t=""
+            scopeRangeValue:r=-1
+          }
+        }
+      }
     }
 
     userSkins{
@@ -1342,6 +1393,8 @@ content{
       jf_17:t=""
       mig-21_bison:t=""
       f-5e_fcu_thailand:t=""
+      saab_ja37di_f21:t=""
+      mirage_2000c_s4:t=""
     }
 
     tankAltCrosshair{
@@ -1349,6 +1402,7 @@ content{
       a_6e_tram:t="test_crosshair"
       germ_spz_oerlikon_raketenautomat:t="sw_landsverk_ush_405"
       f-5e_fcu_thailand:t="test_crosshair"
+      f_15j_kai:t="test_crosshair"
     }
 
     forbid_visual_tags{}
@@ -1402,7 +1456,7 @@ content{
   }
 
   selectedAir{
-    current_model:t="ki_10_1_commander"
+    current_model:t="he51a1"
     ussr:t="mig_3_series_1_15_bk_pod"
     britain:t="fury_mk1"
     germany:t="he51a1"
