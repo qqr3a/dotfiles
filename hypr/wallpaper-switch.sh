@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # 1. Your wallpapers directory
-WALLPAPER_DIR="$HOME/.config/background"
+WALLPAPER_DIR="$HOME/.config/wallpapers"
 
 # Ensure the directory exists
 if [[ ! -d "$WALLPAPER_DIR" ]]; then
