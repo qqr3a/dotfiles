@@ -6,7 +6,6 @@
 
 # 3. Whitelist these files or folders
 !.gitignore
-!alacritty/** 
 !bspwm/** 
 !dunst/** 
 !fastfetch/** 
@@ -15,7 +14,6 @@
 !MangoHud/**
 !Thunar/**
 !WarThunder/** 
-!xborders/**
 !discord/settings.json
 !wofi/**
 !btop/**
@@ -25,3 +23,4 @@
 !install.sh
 !nvim/**
 !wallpapers/**
+
