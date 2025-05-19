@@ -27,3 +27,5 @@
 !btop/**
 !hypr/**
 !waybar/**
+!packages.txt
+!install.sh
