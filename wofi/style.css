@@ -21,7 +21,7 @@ window {
     all:unset;
     padding: 15px;
     border-radius: 0px;
-    background-color:alpha(@color8,0.5);
+    background-color:alpha(@color8,0.8);
 }
 #inner-box {
     margin: 2px;
@@ -88,7 +88,7 @@ window {
     background-color:alpha(@color13,0.5);
 }
 #entry:selected #text {
-    color: @color13;
+    color: @color15;
 }
 #entry:drop(active) {
     background-color: transparent !important;

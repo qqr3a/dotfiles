@@ -22,7 +22,8 @@ copy_dotfiles() {
 
 install_yay() {
   if ! command -v yay &>/dev/null; then
-    log "Installing yay AUR helper..."
+    log "Installing yay AUR helper..."nged, 5 insertions(+), 4 deletions(-)
+ create mode 100644 wallpapers/RoyalClockTowerMecca.
     sudo pacman -Sy --noconfirm git base-devel
     git clone https://aur.archlinux.org/yay.git /tmp/yay
     pushd /tmp/yay >/dev/null
@@ -38,6 +39,13 @@ install_packages() {
   log "Installing packages listed in $PKG_LIST using yay..."
   yay -Sy --noconfirm
   yay -S --noconfirm - < "$PKG_LIST"
+}
+
+install_misc() {
+git clone https://github.com/arpn/wofi-bluetooth.git /tmp/wofi-bluetooth \
+&& bash /tmp/wofi-bluetooth/wofi-bluetooth \
+&& rm -rf /tmp/wofi-bluetooth
+
 }
 
 # Parse arguments

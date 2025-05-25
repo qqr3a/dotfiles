@@ -61,8 +61,8 @@
         },
         "tooltip-format": "",
         "scroll-step": 5,
-        "on-click": "pavucontrol",
-        "on-click-right": "blueman-manager"
+        "on-click": "~/.config/wofi-bluetooth/wofi-bluetooth",
+        "on-click-right": "pavucontrol"
     },
     "custom/notification": {
         "tooltip": false,
@@ -90,10 +90,11 @@
         "format-wifi-max": 5,
         "format-ethernet": "",
         "format-disconnected": "",
+        "format-disabled": "",
         "tooltip-format-disconnected": "Error",
         "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
         "tooltip-format-ethernet": "{ifname} 🖧 ",
-        "on-click": "ghostty -e nmtui"
+        "on-click": "~/.config/wofi/scripts/wofi-wifi.sh"
     },
     "bluetooth": {
         "format-on": "",
