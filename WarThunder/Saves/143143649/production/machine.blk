@@ -1,4 +1,4 @@
-version:i=83
+version:i=84
 
 content{
   machineId:t="68e33c7d9e441aec7fce3c72f62d90d867bc6c6c"
@@ -512,7 +512,7 @@ content{
       USEROPT_MODIFICATIONS:b=no
       USEROPT_LOAD_FUEL_AMOUNT:i=300000
       USEROPT_FUEL_AMOUNT_CUSTOM:i=300000
-      USEROPT_TEST_FLIGHT_NAME:i=3
+      USEROPT_TEST_FLIGHT_NAME:i=4
       USEROPT_AIR_SPAWN_POINT:i=7
       USEROPT_TARGET_RANK:i=1
     }
