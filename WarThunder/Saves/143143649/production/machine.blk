@@ -1,4 +1,4 @@
-version:i=84
+version:i=85
 
 content{
   machineId:t="68e33c7d9e441aec7fce3c72f62d90d867bc6c6c"
@@ -404,7 +404,6 @@ content{
       USEROPT_JOYFX:b=yes
       USEROPT_AUTOMATIC_TRANSMISSION_TANK:b=yes
       USEROPT_WHEEL_CONTROL_SHIP:b=no
-      USEROPT_SEPERATED_ENGINE_CONTROL_SHIP:b=no
       USEROPT_BULLET_FALL_INDICATOR_SHIP:b=yes
       USEROPT_BULLET_FALL_SOUND_SHIP:b=yes
       USEROPT_SINGLE_SHOT_BY_TURRET:b=yes

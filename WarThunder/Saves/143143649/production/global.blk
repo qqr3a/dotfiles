@@ -1,4 +1,4 @@
-version:i=782
+version:i=783
 
 content{
   profile{
@@ -529,16 +529,16 @@ content{
         }
 
         inventory{
-          100143:i=739762
-          item_universal_spare:i=739762
-          universal_spare_aircraft_r16:i=739762
+          100143:i=739768
+          item_universal_spare:i=739768
+          universal_spare_aircraft_r16:i=739768
         }
 
         events{
-          air_simulation_timeDelay_battles:i=739762
-          tank_random_battles_simulation_1:i=739762
-          tank_random_battles_simulation:i=739762
-          helicopter_pve_H2M:i=739762
+          air_simulation_timeDelay_battles:i=739768
+          tank_random_battles_simulation_1:i=739768
+          tank_random_battles_simulation:i=739768
+          helicopter_pve_H2M:i=739768
         }
       }
 
@@ -569,8 +569,8 @@ content{
       }
 
       changelog{
-        lastSeenVersionInfoNum:i=36503910
-        lastLoadedVersionNum:i=36503910
+        lastSeenVersionInfoNum:i=36503913
+        lastLoadedVersionNum:i=36503913
       }
 
       voted_polls{}
@@ -592,8 +592,8 @@ content{
       chatRooms{}
       viralAcquisition{
         resetDays:i=1
-        lastLoginDay:i=739762
-        lastShowTime:i=739746
+        lastLoginDay:i=739768
+        lastShowTime:i=739768
       }
 
       contacts{

@@ -29,3 +29,9 @@ piper
 7zip
 python-pywal16
 python-pywalfox
+mesa
+lib32-mesa
+vulkan-radeon
+lib32-vulkan-radeon
+amd-ucode 
+gamemode
