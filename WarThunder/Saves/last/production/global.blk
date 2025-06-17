@@ -1,4 +1,4 @@
-version:i=783
+version:i=784
 
 content{
   profile{
@@ -529,16 +529,16 @@ content{
         }
 
         inventory{
-          100143:i=739768
-          item_universal_spare:i=739768
-          universal_spare_aircraft_r16:i=739768
+          100143:i=739784
+          item_universal_spare:i=739784
+          universal_spare_aircraft_r16:i=739784
         }
 
         events{
-          air_simulation_timeDelay_battles:i=739768
-          tank_random_battles_simulation_1:i=739768
-          tank_random_battles_simulation:i=739768
-          helicopter_pve_H2M:i=739768
+          air_simulation_timeDelay_battles:i=739784
+          tank_random_battles_simulation_1:i=739784
+          tank_random_battles_simulation:i=739784
+          helicopter_pve_H2M:i=739784
         }
       }
 

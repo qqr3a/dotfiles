@@ -18,7 +18,7 @@ prismlauncher
 onedrive-abraunegg
 fastfetch
 mangohud
-hypershot
+hyprshot
 hypridle
 hyprpicker
 glava
@@ -35,3 +35,4 @@ vulkan-radeon
 lib32-vulkan-radeon
 amd-ucode 
 gamemode
+lact
