@@ -1,0 +1,10 @@
+{
+    "diagnostics.globals": [
+        "vim",
+        "colourThing",
+        "checkEE",
+        "event",
+        "null_ls",
+        "clients"
+    ]
+}

@@ -1,0 +1,24 @@
+# 1. Ignore all files
+*
+
+# 2. Allow Git to traverse into directories
+!*/
+
+# 3. Whitelist these files or folders
+!.gitignore
+!bspwm/** 
+!dunst/** 
+!fastfetch/** 
+!sxhkd/** 
+!ghostty/** 
+!MangoHud/**
+!Thunar/**
+!wofi/**
+!btop/**
+!hypr/**
+!waybar/**
+!packages.txt
+!install.sh
+!nvim/**
+!wallpapers/**
+!quickshell/**

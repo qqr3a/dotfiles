@@ -1,0 +1,95 @@
+@import url("file:///home/yousef/.config/wofi/colors.css");
+
+@keyframes fadeIn {
+    0% {
+    }
+    100% {
+    }
+}
+
+* {
+    all:unset;
+    font-family: 'CodeNewRoman Nerd Font Mono', monospace;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    text-shadow:none;
+    background-color:transparent;
+}
+
+window {
+    all:unset;
+    padding: 15px;
+    border-radius: 0px;
+    background-color:alpha(@color8,0.8);
+}
+#inner-box {
+    margin: 2px;
+    padding: 5px
+    border: none;
+}
+#outer-box {    
+    border: none;
+}
+#scroll {
+    margin: 0px;
+    padding: 10px;
+    border: none;
+}
+#input {
+    all:unset;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:10px;
+    padding:10px;
+    border: none;
+    outline: none;
+    color: @color13;
+    box-shadow: 1px 1px 5px rgba(0,0,0, .5);
+    border-radius:10;
+    background-color: transparent;
+}
+#input image {
+    border: none;
+    color: transparent;
+    padding-right:10px;
+}
+#input * {
+    border: none;
+    outline: none;
+}
+
+#input:focus {
+    outline: none;
+    border: none;
+
+    border-radius:10;
+}
+#text {
+    margin: 5px;
+    border: none;
+    color: @color3;
+    outline:none;
+}
+#entry {
+    border: none;
+    margin: 5px;
+    padding: 5px;
+}
+#entry arrow {
+    border: none;
+    color: transparent;
+
+}
+#entry:selected {
+    box-shadow: 1px 1px 5px @color12;
+    border: none;
+    border-radius: 10px;
+    background-color:alpha(@color13,0.5);
+}
+#entry:selected #text {
+    color: @color15;
+}
+#entry:drop(active) {
+    background-color: transparent !important;
+}

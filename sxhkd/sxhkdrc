@@ -1,0 +1,117 @@
+# Set Super key for shortcuts
+super = Mod4
+
+# Launch terminal
+super + Return
+    ghostty
+
+# Launch Firefox
+super + BackSpace
+    zen-browser
+
+# Launch Thunar
+super + e
+    thunar
+
+# Kill focused window
+super + shift + q
+    bspc node -c
+
+# Launch Rofi (drun)
+super + d
+    rofi -show drun
+
+# Rofi search script
+super + s
+    ~/scripts/rofi_search.sh
+
+# Screenshot with Flameshot
+super + shift + s
+    flameshot gui 
+
+super + a
+    ~/scripts/xcolor_wrapper.sh
+
+# Change focus
+super + h
+    bspc node -f west
+super + j
+    bspc node -f south
+super + k
+    bspc node -f north
+super + l 
+    bspc node -f east
+
+# Move window
+super + shift + h
+    bspc node -s west
+super + shift + j
+    bspc node -s south
+super + shift + k
+    bspc node -s north
+super + shift + l 
+    bspc node -s east
+
+# Resize window
+super + ctrl + Left
+    bspc node -z left -10 0
+super + ctrl + Right
+    bspc node -z right 10 0
+super + ctrl + Up
+    bspc node -z top 0 -10
+super + ctrl + Down
+    bspc node -z bottom 0 10
+
+# Toggle fullscreen
+super + f
+    bspc node -t fullscreen || bspc node -t tiled
+
+# Toggle floating mode
+super + shift + space
+    bspc node -t floating
+
+# Focus parent container
+super + p
+    bspc node -f parent
+
+# Workspace (Desktop) Switching
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} '^{1-9,10}'
+# Mouse resizing (right-click + shift + drag)
+button3 + shift + mousemove   bspc node -z right -30 0
+button3 + shift + mousemove   bspc node -z left +30 0
+button3 + shift + mousemove   bspc node -z up -30 0
+button3 + shift + mousemove   bspc node -z down +30 0
+
+
+
+# Move window to workspace
+super + shift + {1-9,0}
+    bspc node -d {1-9,0}
+    
+# Reload configuration
+super + shift + r
+    pkill -USR1 -x sxhkd
+
+super + shift + t
+    bspc wm -r
+
+# Exit BSPWM (replace i3 exit functionality)
+super + shift + e
+    bspc quit
+
+super + b
+    bspc config window_gap $(bspc config window_gap | grep -q '^0$' && echo 10 || echo 0); bspc config top_padding $(bspc config top_padding | grep -q '^0$' && echo 32 || echo 0)
+
+    # Increase volume with Alt + Up
+super + alt + Up
+    pactl set-sink-volume @DEFAULT_SINK@ +5% && eww update volume=$(~/.config/eww/scripts/getvol)
+
+# Decrease volume with Alt + Down
+super + alt + Down
+    pactl set-sink-volume @DEFAULT_SINK@ -5% && eww update volume=$(~/.config/eww/scripts/getvol)
+
+# Mute/Unmute with Alt + m
+super + alt + m
+    pactl set-sink-mute @DEFAULT_SINK@ toggle && eww update volume=$(~/.config/eww/scripts/getvol)
+
